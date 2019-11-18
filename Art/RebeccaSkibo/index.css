@@ -1,0 +1,68 @@
+
+/*	
+	Author: Rebecca A. Skibo
+	Date: 11/18/2019
+	File: Art/RebeccaSkibo/index.html
+	assign: GitHub Animation
+*/		
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes #Jecca {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes #Jecca {
+		from {background-color: red;}
+		to   {background-color: yellow;}
+}
+div img {
+	width: 20px;
+	height: 20px;
+	-webkit-animation-name: Jecca; /* Safari 4.0 - 8.0 */
+	-webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+	
+	animation-name: Jecca;
+	animation-duration: 40s;
+	
+ }
+ @keyframes {
+	 animation-timing-function: ease-in;
+	 from {left: 0px; top:0px;}
+	 10% {left: 10px; top: 20px;}
+	 15% {left: 20px; top: 30px;}
+	 25% {left: 40px; top: 60px;}
+	 to {left: 60px; top: 80px;}
+ }
+ @keyframes spin {
+	0% {transform: rotate(0deg);}
+	25% {transform: rotate(5deg);}
+	30% {transform: rotate(-5deg);}
+	40% {transform: rotate(10deg);}
+	50% {transform: rotate(15deg);}
+	60% {transform: rotate(-15deg);}
+	70% {transform: rotate(20deg);}
+	80% {transform: rotate(30deg);}
+	90% {transform: rotate(-25deg);}
+	100% {transform: rotate(360deg);}
+ }
+ /*a{
+	opacity: 0.1;
+	color: white;
+	transition: opacity 4s;
+
+ }*/
+ img {
+	 animation: spin 40s ease-in 10;
+ }
+ div:hover img {
+	transition: 
+ }
+ /* body styles */
+ 
+ #Jecca {
+	 width: 30%;
+	 height: 30%;
+	 
+ }
